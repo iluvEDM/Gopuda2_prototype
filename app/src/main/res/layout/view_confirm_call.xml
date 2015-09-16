@@ -25,10 +25,26 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_weight="0.3"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             >
-
-
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="confirm"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="waiting"/>
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="accept"/>
 
         </LinearLayout>
         <!-- confirm button -->
